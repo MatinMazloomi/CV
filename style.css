@@ -1,11 +1,13 @@
 body {
   margin: 0;
+  background-color: rgb(168, 163, 156);
 }
+
 img {
-  width: 100%;
-  height: 739px;
+
   position: absolute;
 }
+
 .pappret {
   position: absolute;
   background-color: white;
@@ -14,29 +16,87 @@ img {
   right: 35%;
   top: 5%;
   bottom: 10%;
+  border-radius: 20px;
 }
+
 .bkgrndppr {
   height: 100%;
   width: 100%;
+  border-radius: 20px;
 }
+
 .hSida {
   position: absolute;
-  background-color: rgb(255, 255, 255);
+  background-color: #e7e5e8;
   width: 60.3%;
   height: 90%;
   right: 5%;
   top: 5%;
 }
 
+.name-plats {
+  background-color: rgba(36, 51, 70, 255);
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  padding-right: 10px;
+  margin-top: 20px;
+
+
+}
+
+.name {
+  font-size: 30px;
+  margin-bottom: 0px;
+  padding-top: 20px;
+
+}
+
+.jobb {
+  margin-top: 0;
+  padding-bottom: 20px;
+}
+
+h3 {
+  margin-right: 10px;
+  margin-left: 10px;
+  border-bottom: 2px solid black;
+  padding-bottom: 20px;
+}
+
+ul{
+ padding-left: 25px;
+}
+li{
+padding-left: 20px;
+margin-left: 0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*vänster sida */
 .vSida {
   position: absolute;
-  background-color: rgb(19, 23, 73);
+  background-color: rgba(36, 51, 70, 255);
   width: 30%;
   height: 90%;
   top: 5%;
   left: 5%;
 }
+
 .bild {
   top: 2%;
   left: 20%;
@@ -44,12 +104,23 @@ img {
   width: 80px;
   border-radius: 50px;
 }
-.omMig{
-    padding-top: 70%;
-    padding-left: 10%;
-    color: white;
+
+h4{
+  color: white;
+  margin-left: 20px;
+  font-size: 18px;
+  margin-bottom: 0px;
 }
-p{
-    color: white;
-    padding-left: 10%;
+.omMig {
+  padding-top: 70%;
+ 
+  color: white;
+}
+
+p {
+  color: white;
+  margin-left: 10%;
+  font-size: 12px;
+  margin-top: 5px;
+
 }
